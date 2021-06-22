@@ -1,0 +1,75 @@
+.banner {
+  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center center;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.suka{
+  background: url("https://media.cntraveler.com/photos/5db1d0dd11c1e500092e7133/master/pass/airbnb-ski-aspen-28328347.jpg") center center;
+  height: 70vh;
+  position: relative;
+}
+.covid {
+  align-self: center;
+  top: 0;
+  width: 100vw;
+  text-transform: inherit !important;
+  background-color: #222222;
+  color:#A3A3A3;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+.covid > a {
+  color:#A3A3A3;
+  text-align: center;
+}
+
+.MuiButton-outlined{
+  border-radius: 20px !important ;
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info {
+    color: white;
+    padding-top: 20vh;
+    width: 500px;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+  }
+  
+
+.banner__info > h5 {
+    margin-top: 10px;
+}
